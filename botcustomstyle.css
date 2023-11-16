@@ -42,7 +42,7 @@ p,
 /* Styling for the chat bubble content */
 .bpw-chat-bubble-content {
   background-color: #4b4b4b;
-  border-radius: 3px;
+  border-radius: 6px;
   border: 1px transparent;
   padding: 0.2rem 0.75rem;
 }
@@ -118,7 +118,8 @@ a {
 
 /* Styling for the composer section of the chat interface */
 .bpw-composer {
-  background-color: #000000;
+  background-color: #6647FF;
+  background: linear-gradient(0deg, rgba(102,71,255,1) 0%, rgba(102,71,255,1) 35%, rgba(201,203,255,1) 100%);
   border-top: 1px solid #4b4b4b;
 }
 
@@ -135,7 +136,7 @@ a {
 .bpw-bot-avatar img,
 .bpw-bot-avatar svg {
   background: #000000;
-  border: 3px solid #ffffff;
+  border: 3px solid #6647ff;
 }
 
 /* Styling for the general scrollbar in the web page */
