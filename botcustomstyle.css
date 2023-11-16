@@ -25,7 +25,7 @@ p,
 /* Styling for the chat header container */
 .bpw-header-container {
   margin: 10px;
-  background: black;
+  background: rgb(102, 71, 255);
   border-radius: 10px;
   position: relative;
   overflow: hidden;
@@ -98,7 +98,7 @@ a {
 
 /* Styling for the chat container, including color, scrollbar width and color, and border */
 .bpw-chat-container {
-  background-color: #000000;
+  background-color: #c9cbff;
   scrollbar-width: thin;
   scrollbar-color: #4b4b4b #000000;
   border: none;
