@@ -119,7 +119,7 @@ a {
 /* Styling for the composer section of the chat interface */
 .bpw-composer {
   background-color: #6647FF;
-  background: linear-gradient(0deg, rgba(102,71,255,1) 0%, rgba(102,71,255,1) 35%, rgba(201,203,255,1) 100%);
+  background: linear-gradient(-5deg, rgba(89,55,255,1) 0%, rgba(89,55,255,1) 33%, rgba(123,97,255,1) 56%, rgba(167,149,255,1) 100%);
   border-top: 1px solid #4b4b4b;
 }
 
