@@ -229,3 +229,11 @@ a {
 .bpw-send-button:not(:disabled):hover {
   background-color: var(--theme-primary-hover);
 }
+
+/* mobile */
+@media only screen and (max-width: 600px){
+  .bpw-header-container{
+    margin: 5px 10px 0px 10px;
+    border-radius: 0px 0px 15px 15px;
+  }
+}
