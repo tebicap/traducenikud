@@ -171,10 +171,10 @@ a {
 /* Styling for the 'powered by' section of the chat interface */
 .bpw-powered {
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   color: #ffffff;
   background: #000000;
-  font-size: 16px;
+  font-size: 5px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
