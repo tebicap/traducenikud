@@ -41,7 +41,7 @@ p,
 
 /* Styling for the chat bubble content */
 .bpw-chat-bubble-content {
-  background-color: #4b4b4b;
+  background-color: #7F68FF;
   border-radius: 6px;
   border: 1px transparent;
   padding: 0.2rem 0.75rem;
@@ -112,8 +112,8 @@ a {
 
 /* Styling for the chat bubble content when it's from the user */
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #7F68FF;
+  color: #32257b;
 }
 
 /* Styling for the composer section of the chat interface */
@@ -233,8 +233,13 @@ a {
 
 /* mobile */
 @media only screen and (max-width: 600px){
+  .center-div{
+    border-radius: 0px 0px 15px 15px; 
+  }
   .bpw-header-container{
     margin: 5px 10px 0px 10px;
-    border-radius: 0px 0px 15px 15px;
+    /* border-radius: 0px 0px 15px 15px; */
+    padding-top: 2px;
+    padding-bottom: 2px;
   }
 }
