@@ -170,7 +170,6 @@ a {
 
 /* Styling for the 'powered by' section of the chat interface */
 .bpw-powered {
-  display: none;
   text-align: center;
   /* padding: 10px; */
   color: #ffffff;
