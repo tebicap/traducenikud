@@ -37,7 +37,7 @@
 
   .loading-img{
     position: absolute;
-    top: 40vh;
+    top: 33vh;
     left: calc(50vw - 32px);
   }
 
@@ -102,13 +102,14 @@
 <img class="loading-img" src="loading.gif" alt="cargando...">
 
 <script type="text/javascript">
-  function remv(){
-    // Pause for a second (1000 milliseconds)
-    //await new Promise(resolve => setTimeout(resolve, 3000));
-
-    //window.alert("entroentrooo");
-    document.getElementsByClassName('bpw-powered')[0].style.opacity = "0.5";
+  function remove(element, type){
+    if (type == "id"){
+      document.getElementById(element).style.display = "none";
+    } else if (type == "class"){
+      document.getElementsByClassName(element)[0].style.display = "none";
+    }
   }
+  setTimeout(function(){  remove ("loading-img", "class")  }, 3000);
 </script>
 </body>
 </html>

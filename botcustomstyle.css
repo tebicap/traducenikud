@@ -235,7 +235,7 @@ a {
 
 /* mobile */
 @media only screen and (max-width: 600px){
-  .center-div{
+  .center-div, .rounded-md{
     border-radius: 0px 0px 15px 15px; 
   }
   .bpw-header-container{
