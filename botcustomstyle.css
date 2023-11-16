@@ -242,4 +242,10 @@ a {
     padding-top: 2px;
     padding-bottom: 2px;
   }
+  .bpw-date-container{
+    margin: 15px 0 10px;
+  }
+  .pie-donaciones{
+    margin-top: 8px;
+  }
 }
