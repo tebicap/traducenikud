@@ -1,6 +1,7 @@
 /* This CSS rule sets the default font size of the entire document */
 html {
   font-size: 16px;
+  color: #2b273f;
 }
 
 /* These CSS rules sets the text direction of the paragraph (RTL or LTR) */
@@ -43,6 +44,7 @@ p,
   background-color: #4b4b4b;
   border-radius: 3px;
   border: 1px transparent;
+  padding: 0.2rem 0.75rem;
 }
 
 /* Styling for the date container, header name, and header subtitle */
