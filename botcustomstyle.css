@@ -15,7 +15,9 @@ p,
 #input-message {
   color: #ffffff;
 }
-
+.bpw-small-line{
+  border-bottom: 1px solid #a3a3a3;
+}
 /* Changes the color of the new message indicator */
 .bpw-new-messages-indicator {
   background-color: #4b4b4b;
