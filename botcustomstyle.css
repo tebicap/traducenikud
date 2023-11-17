@@ -14,6 +14,9 @@ p,
 /* This rule changes the color of the text in the input message */
 #input-message {
   color: #ffffff;
+  background-color: #ffffff14;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 60px -12px inset, rgba(50, 50, 93, 0.2) 0px 18px 36px -18px inset;
+  border-radius: 0.5rem;
 }
 .bpw-small-line{
   border-bottom: 1px solid #a3a3a3;
@@ -124,7 +127,8 @@ a {
 .bpw-composer {
   background-color: #6647FF;
   background: linear-gradient(-5deg, rgba(89,55,255,1) 0%, rgba(89,55,255,1) 33%, rgba(123,97,255,1) 56%, rgba(167,149,255,1) 100%);
-  border-top: 1px solid #4b4b4b;
+  border-top: 1px solid #6647ff;;
+  padding: 0;
 }
 
 
