@@ -245,4 +245,7 @@ a {
   .bpw-date-container{
     margin: 15px 0 10px;
   }
+  .bpw-keyboard-single-choice {
+    padding: 12px 20px;
+  }
 }
