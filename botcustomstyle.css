@@ -29,6 +29,7 @@ p,
   margin: 10px;
   background: rgb(102, 71, 255);
   border-radius: 10px;
+  box-shadow: 0px 2px 5px #0d00536b;
   position: relative;
   overflow: hidden;
   border: 1px;
@@ -71,14 +72,14 @@ p,
 
 /* Styling for the keyboard single choice option */
 .bpw-keyboard-single-choice {
-  background-color: #000000;
+  background-color: #c9cbff;
   border: none;
 }
 
 /* Styling for the buttons in the chat interface */
 .bpw-button,
 .bpw-button-alt {
-  background-color: #323232;
+  background-color: #cb4444;
   color: #ffffff;
   border-radius: 10px;
   border: none;
@@ -114,7 +115,7 @@ a {
 
 /* Styling for the chat bubble content when it's from the user */
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: #7F68FF;
+  background-color: #ad9eff;
   color: #32257b;
 }
 
