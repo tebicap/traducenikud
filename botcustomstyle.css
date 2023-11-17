@@ -88,7 +88,7 @@ p,
 /* Styling for hover effect on the buttons in the chat interface */
 .bpw-button:hover,
 .bpw-button-alt:hover {
-  background-color: #4b4b4b;
+  background-color: #6647ff;
 }
 
 
@@ -108,7 +108,7 @@ a {
 
 /* Styling for the chat bubble content when it's from the bot */
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: #4b4b4b;
+  background-color: #6647ff;
   color: #ffffff;
 }
 
