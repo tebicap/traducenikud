@@ -19,7 +19,7 @@ p,
   border-radius: 0.5rem;
 }
 .bpw-small-line{
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff55;
 }
 /* Changes the color of the new message indicator */
 .bpw-new-messages-indicator {
