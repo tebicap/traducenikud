@@ -63,6 +63,7 @@ p,
 
 .bpw-date-container{
   /* border-bottom: 1px solid #ffffff; */
+  border-bottom: none;
 }
 
 /* Changes the fill color of the header icons to white */
