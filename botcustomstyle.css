@@ -235,9 +235,6 @@ a {
 
 /* mobile */
 @media only screen and (max-width: 600px){
-  .center-div, .rounded-md{
-    border-radius: 0px 0px 15px 15px; 
-  }
   .bpw-header-container{
     margin: 5px 6px 0px 6px;
     /* border-radius: 0px 0px 15px 15px; */
@@ -246,9 +243,5 @@ a {
   }
   .bpw-date-container{
     margin: 15px 0 10px;
-  }
-  .pie-donaciones{
-    margin-top: 8px;
-    width: 99vw;
   }
 }
