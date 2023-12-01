@@ -149,6 +149,8 @@ a {
 .bpw-bot-avatar img,
 .bpw-bot-avatar svg {
   background: #000000;
+  background-image: url("bot_avatar.png");
+  background-size: contain;
   border: 3px solid #6647ff;
 }
 
