@@ -1,58 +1,33 @@
 <!DOCTYPE html>
 <html>
-<meta charSet="utf-8"/>
-<title>Chatbot-את</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕎</text></svg>">
+<head>
+  <meta charSet="utf-8"/>
+  <title>Chatbot-את</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕎</text></svg>">
 
-<style>
-  .bpw-powered{
-    display: none;
-  }
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 99%;
-    margin: 0;
-    color: white;
-    background-color: #3e3a50;
-    font-family: Arial, sans-serif;
-  }
+  <style>
+    .bpw-powered{
+      display: none;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 99%;
+      margin: 0;
+      color: white;
+      background-color: #3e3a50;
+      font-family: Arial, sans-serif;
+    }
 
-  .center-div {
-    width: 50vw;
-    height: 80vh;
-    background-color: rgb(102, 71, 255);
-    border-radius: 15px;
-    padding: 5px;
-    margin-top: 4vh;
-    box-sizing: border-box;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .loading-img{
-    position: absolute;
-    top: 33vh;
-    left: calc(50vw - 32px);
-  }
-
-  .pie-donaciones{
-    width: 50vw; 
-  }
-
-  @media only screen and (max-width: 600px) {
     .center-div {
-      height: 85vh;
-      width: 100vw;
+      width: 50vw;
+      height: 80vh;
       background-color: rgb(102, 71, 255);
-      border-radius: 0px 0px 15px 15px;
+      border-radius: 15px;
       padding: 5px;
-      margin-top: 0;
+      margin-top: 4vh;
       box-sizing: border-box;
       color: white;
       display: flex;
@@ -61,70 +36,50 @@
       text-align: center;
     }
 
+    .loading-img{
+      position: absolute;
+      top: 33vh;
+      left: calc(50vw - 32px);
+    }
+
     .pie-donaciones{
-      margin-top: 8px;
-      width: 97vw;
-      padding-left: 8px;
-      padding-right: 8px;
-      padding-bottom: 0px;
-      line-height: 1;
-      font-size: 0.95em;
-      margin-bottom: 5px;
+      width: 50vw; 
     }
-  }
-</style>
+
+    @media only screen and (max-width: 600px) {
+      .center-div {
+        height: 85vh;
+        width: 100vw;
+        background-color: rgb(102, 71, 255);
+        border-radius: 0px 0px 15px 15px;
+        padding: 5px;
+        margin-top: 0;
+        box-sizing: border-box;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      .pie-donaciones{
+        margin-top: 8px;
+        width: 97vw;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 0px;
+        line-height: 1;
+        font-size: 0.95em;
+        margin-bottom: 5px;
+      }
+    }
+  </style>
+
+      <!-- botpress scripts: -->
+  <script src="https://cdn.botpress.cloud/webchat/v2.5/inject.js"></script>
+  <script src="https://files.bpcontent.cloud/2025/05/11/15/20250511155901-2JDM1AYU.js"></script>
+</head>
 <body>
-<div>
-      <div class="absolute inset-4 ">
-        <div
-          class="center-div relative h-full w-full overflow-clip rounded-md border border-zinc-200 bg-white p-2 px-0 py-0"
-        >
-          <iframe
-            style="border: none;"
-            srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v2.5/inject.js'></script>
-            <script>
-              window.botpressWebChat.init({
-                  'composerPlaceholder': 'Chatea con el bot',
-                  'botConversationDescription': 'volcalizo y traduzco hebreo',
-                  'botName': 'nikud-traduce',
-                  'botId': 'd6ebc59f-e282-495d-80b2-2e310296f15f',
-                  'hostUrl': 'https://cdn.botpress.cloud/webchat/v2.5',
-                  'messagingUrl': 'https://messaging.botpress.cloud',
-                  'clientId': 'd6ebc59f-e282-495d-80b2-2e310296f15f',
-                  'enableConversationDeletion': true,
-                  'showPoweredBy': false,
-                  'className': 'webchatIframe',
-                  'containerWidth': '100%25',
-                  'layoutWidth': '100%25',
-                  'hideWidget': true,
-                  'showCloseButton': false,
-                  'disableAnimations': true,
-                  'closeOnEscape': false,
-                  'showConversationsButton': false,
-                  'enableTranscriptDownload': false,
-                  <!-- estilo para el bot: (url temporal) -->
-                  'stylesheet': 'https://tebicap.github.io/traducenikud/botcustomstyle.css'
-              });
-            window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
-            </script></body>"
-            width="100%"
-            height="100%"
-          ></iframe>
-        </div>
-      </div>
-      <p class="pie-donaciones" style="display: inline-block; color:#bdbdbd; padding-left: 8px; padding-right: 5px; padding-left: 5px;">Si el bot te aporta valor puedes decir 'gracias' enviando <a style="color: #fb7b2b" href="https://coinos.io/estebanc">Bitcoin aquí</a>; o con <a style="color: #5d80ff" href="https://www.paypal.com/donate/?hosted_button_id=DTG94EYGCN5PG">Tarjeta o Paypal aquí</a><br>Puedes contactarme por email: tebicap@gmail.com<p>
-
-<img class="loading-img" src="loading.gif" alt="cargando...">
-
-<script type="text/javascript">
-  function remove(element, type){
-    if (type == "id"){
-      document.getElementById(element).style.display = "none";
-    } else if (type == "class"){
-      document.getElementsByClassName(element)[0].style.display = "none";
-    }
-  }
-  setTimeout(function(){  remove ("loading-img", "class")  }, 2500);
-</script>
+  <!-- Website content -->
 </body>
 </html>
